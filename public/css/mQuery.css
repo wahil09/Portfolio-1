@@ -1,0 +1,96 @@
+
+
+@media screen and (max-width:1080px) {
+
+    #header .container-header {
+
+        grid-template-areas:'. logo logo logo . . . . . . . . . . . menu';
+
+    }
+
+    /* --- Bar-Menu --- */
+    #header .container-header .bar-menu {
+        display: flex;
+        z-index: 1;
+    }
+    
+    /* -- Style Menu -- */
+    #header .container-header .nav-pc {
+        position: relative;
+        z-index: 1;
+        width: 35px;
+        height: 100%;
+        right: 0px;
+        top: 0px ;
+    }
+
+    #header .container-header .nav-pc:hover::after {
+        content: '';
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        right: 0px;
+        top: 0px;
+    }
+
+    #header .container-header .nav-pc ul {
+        background-color: #f6f6f6;
+        position: absolute;
+        top: 57px;
+        right: 2px;
+        display: none;
+        width: 200px;
+        
+    }
+
+    #header .container-header .nav-pc:hover ul {
+        display: flex;
+    }
+
+    #header .container-header .nav-pc ul a {
+        width: 200px;
+        padding: 13px 20px;
+        border-bottom: 1px solid gray;
+        transition: 0.7s;
+        -webkit-transition: 0.7s;
+        -moz-transition: 0.7s;
+        -ms-transition: 0.7s;
+        -o-transition: 0.7s;
+}
+
+    #header .container-header .nav-pc ul li:hover a {
+        padding-right: 15px
+    }
+
+    #header .container-header .nav-pc ul::before {
+        background-color: #f6f6f6;
+        content: '';
+        position: absolute;
+        top: -10px;
+        right: 6px;
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

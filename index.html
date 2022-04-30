@@ -10,184 +10,196 @@
     <title>Portfolio-01</title>
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/all.css">
+    <link rel="stylesheet" href="public/css/mQuery.css">
 </head>
 
 <body dir="ltr">
     <div class="container">
         <!--    Header    -->
-        <header id="header">
-            <div class="logo">
-                <img src="public/images/logo.png">
+        <header id="header" class="flex-r">
+            <div class="container-header ">
+                <div class="cadre-logo flex-r">
+                    <img src="public/images/logo.png">
+                </div>
+                
+                <nav class="nav-pc flex-r">
+                    <div class="bar-menu flex-c">
+                        <span class="bar top"></span>
+                        <span class="bar middle"></span>
+                        <span class="bar bottom"></span>
+                    </div>
+                    <ul class="flex-r">
+                        <li class="sect-lien"><a href="#services">Services</a></li>
+                        <li class="sect-lien"><a href="#portfolio">Portfolio</a></li>
+                        <li class="sect-lien"><a href="#about">About</a></li>
+                        <li class="sect-lien"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav-pc">
-                <ul>
-                    <li class="sect-lien"><a href="#services">services</a></li>
-                    <li class="sect-lien"><a href="#portfolio">portfolio</a></li>
-                    <li class="sect-lien"><a href="#about">about</a></li>
-                    <li class="sect-lien"><a href="#contact">contact</a></li>
-                </ul>
-            </nav>
         </header>
+        <main>
+            <!--    Landing-Page    -->
+            <section class="row landing" id="landing">
+                <article class="art-row">
+                    <div class="div-title-1">
+                        <h1 id="main-title">hello there</h1>
+                    </div>
+                    <div class="div-descript">
+                        <p class="descript">We are Leon - Super Creative & Minimal Agency Web Template</p>
+                    </div>
+                </article>
+                <article class="art-row">
+                    <div class="column-row">
+                        <i class="fas fa-magic fa-3x"></i>
+                        <h3>Tell Us Your Idea</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                        </p>
+                    </div>
+                    <div class="column-row">
+                        <i class="far fa-gem fa-3x"></i>
+                        <h3>We Will Do All The Work</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                        </p>
+                    </div>
+                    <div class="column-row">
+                        <i class="fas fa-globe-asia fa-3x"></i>
+                        <h3>Your Product is Worldwide</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                        </p>
+                    </div>
+                </article>
+            </section>
 
-        <!--    Landing-Page    -->
-        <section class="row landing" id="landing">
-            <article class="art-row">
-                <div class="div-title-1">
-                    <h1 id="main-title">hello there</h1>
+            <!--    Services-Row    -->
+            <section class="row services" id="services">
+                <div class="div-title">
+                    <h2 class="special-heading">Services</h2>
+                    <p>Don't be busy, be productive</p>
                 </div>
-                <div class="div-descript">
-                    <p class="descript">We are Leon - Super Creative & Minimal Agency Web Template</p>
-                </div>
-            </article>
-            <article class="art-row">
-                <div class="column-row">
-                    <i class="fas fa-magic fa-3x"></i>
-                    <h3>Tell Us Your Idea</h3>
+
+                <article class="service">
+                    <h2>graphic design</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                        Graphic design is the process of visual communication and problem-solving
+                        using one or more of typography, photography and illustration.
                     </p>
-                </div>
-                <div class="column-row">
-                    <i class="far fa-gem fa-3x"></i>
-                    <h3>We Will Do All The Work</h3>
+                </article>
+                <article class="service">
+                    <h2>web design</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                        Web design encompasses many different skills and disciplines
+                        in the production and maintenance of websites.
                     </p>
-                </div>
-                <div class="column-row">
-                    <i class="fas fa-globe-asia fa-3x"></i>
-                    <h3>Your Product is Worldwide</h3>
+                </article>
+                <article class="service">
+                    <h2>ui & ux design</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                        Process of enhancing user satisfaction with a product by improving the
+                        usability, accessibility, and pleasure provided in the interaction..
                     </p>
-                </div>
-            </article>
-        </section>
-
-        <!--    Services-Row    -->
-        <section class="row services" id="services">
-            <div class="div-title">
-                <h2 class="special-heading">services</h2>
-                <p>Don't be busy, be productive</p>
-            </div>
-
-            <article class="service">
-                <h2>graphic design</h2>
-                <p>
-                    Graphic design is the process of visual communication and problem-solving
-                    using one or more of typography, photography and illustration.
-                </p>
-            </article>
-            <article class="service">
-                <h2>web design</h2>
-                <p>
-                    Web design encompasses many different skills and disciplines
-                    in the production and maintenance of websites.
-                </p>
-            </article>
-            <article class="service">
-                <h2>ui & ux design</h2>
-                <p>
-                    Process of enhancing user satisfaction with a product by improving the
-                    usability, accessibility, and pleasure provided in the interaction..
-                </p>
-            </article>
-            <article class="service">
-                <h2>web development</h2>
-                <p>
-                    Web development is a broad term for the work involved
-                    in developing a web site for the Internet or an intranet.n.
-                </p>
-            </article>
-        </section>
-
-        <!--    Projects-Row    -->
-        <section class="row portfolio" id="portfolio">
-            <div class="div-title">
-                <h2 class="special-heading">portfolio</h2>
-                <p>If you do it right, it will last forever.</p>
-            </div>
-
-            <article class="project">
-                <div class="cadre-img">
-                    <img src="public/images/portfolio-1.jpg">
-                </div>
-                <h2>snack-Store</h2>
-                <p>
-                    My creative ability is very difficult to measure
-                    because it can manifest in so many surprising and.
-                </p>
-            </article>
-            <article class="project">
-                <div class="cadre-img">
-                    <img src="public/images/portfolio-2.jpg">
-                </div>
-                <h2>portfolio dev-web</h2>
-                <p>
-                    My creative ability is very difficult to measure because
-                    it can manifest in so many surprising and.
-                </p>
-            </article>
-            <article class="project">
-                <div class="cadre-img">
-                    <img src="public/images/portfolio-3.jpg">
-                </div>
-                <h2>portfolio designer-web</h2>
-                <p>
-                    My creative ability is very difficult to measure because it
-                    can manifest in so many surprising and.
-                </p>
-            </article>
-        </section>
-
-        <!--    About-Row    -->
-        <section class="row about" id="about">
-            <div class="div-title">
-                <h2 class="special-heading">about</h2>
-                <p>Less is more work</p>
-            </div>
-            <article class="container">
-                <div class="cadre-img">
-                    <img src="public/images/about.jpg">
-                </div>
-                <div class="descript">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem adipisci praesentium est, nesciunt
-                        exercitationem nulla! Accusamus illum dolores quod officiis vitae, consectetur non, cupiditate
-                        sint distinctio obcaecati recusandae mollitia, porro tenetur et adipisci fugit molestias facere.
-                        Debitis ex nobis beatae vitae, illum autem cum blanditiis repellendus qui et tempore facere!
+                </article>
+                <article class="service">
+                    <h2>web development</h2>
+                    <p>
+                        Web development is a broad term for the work involved
+                        in developing a web site for the Internet or an intranet.n.
                     </p>
-                    
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem adipisci praesentium est, nesciunt
-                        exercitationem nulla! Accusamus illum dolores quod officiis vitae, consectetur non, cupiditate
-                        sint distinctio obcaecati recusandae mollitia, porro tenetur et repellendus qui et tempore facere!
-                    </p>
-                </div>
-            </article>
-        </section>
+                </article>
+            </section>
 
-        <section class="row contact" id="contact">
-            <div class="div-title">
-                <h2 class="special-heading">contact</h2>
-                <p>We are born to create</p>
-            </div>
-            <article class="container">
-                <p>Feel free to drop us a line at:</p>
-                <a href="mailto:wahilchettouf@gmail.com?subject=Contact&body=Bonjour,">wahilchettouf@gmail.com</a>
-                <div class="div-lien">
-                    <p>Find Us On Social Networks</p>
-                    <a href="https://github.com/wahil09/"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/devweb-wahilchettouf/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="http://wahil-chettouf.infinityfreeapp.com/?i=1"><i class="fa-solid fa-address-card"></i></a>
+            <!--    Projects-Row    -->
+            <section class="row portfolio" id="portfolio">
+                <div class="div-title">
+                    <h2 class="special-heading">Portfolio</h2>
+                    <p>If you do it right, it will last forever.</p>
                 </div>
-            </article>
-        </section>
+
+                <article class="project">
+                    <div class="cadre-img">
+                        <img src="public/images/portfolio-1.jpg">
+                    </div>
+                    <h2>snack-Store</h2>
+                    <p>
+                        My creative ability is very difficult to measure
+                        because it can manifest in so many surprising and.
+                    </p>
+                </article>
+                <article class="project">
+                    <div class="cadre-img">
+                        <img src="public/images/portfolio-2.jpg">
+                    </div>
+                    <h2>portfolio dev-web</h2>
+                    <p>
+                        My creative ability is very difficult to measure because
+                        it can manifest in so many surprising and.
+                    </p>
+                </article>
+                <article class="project">
+                    <div class="cadre-img">
+                        <img src="public/images/portfolio-3.jpg">
+                    </div>
+                    <h2>portfolio designer-web</h2>
+                    <p>
+                        My creative ability is very difficult to measure because it
+                        can manifest in so many surprising and.
+                    </p>
+                </article>
+            </section>
+
+            <!--    About-Row    -->
+            <section class="row about" id="about">
+                <div class="div-title">
+                    <h2 class="special-heading">About</h2>
+                    <p>Less is more work</p>
+                </div>
+                <article class="container-about">
+                    <div class="cadre-img">
+                        <img src="public/images/about.jpg">
+                    </div>
+                    <div class="descript">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem adipisci praesentium est, nesciunt
+                            exercitationem nulla! Accusamus illum dolores quod officiis vitae, consectetur non, cupiditate
+                            sint distinctio obcaecati recusandae mollitia, porro tenetur et adipisci fugit molestias facere.
+                            Debitis ex nobis beatae vitae, illum autem cum blanditiis repellendus qui et tempore facere!
+                        </p>
+                        
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem adipisci praesentium est, nesciunt
+                            exercitationem nulla! Accusamus illum dolores quod officiis vitae, consectetur non, cupiditate
+                            sint distinctio obcaecati recusandae mollitia, porro tenetur et repellendus qui et tempore facere!
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <!--    Contact-Row    -->
+            <section class="row contact" id="contact">
+                <div class="div-title">
+                    <h2 class="special-heading">Contact</h2>
+                    <p>We are born to create</p>
+                </div>
+                <article class="container-contact">
+                    <p>Feel free to drop us a line at:</p>
+                    <a href="mailto:wahilchettouf@gmail.com?subject=Contact&body=Bonjour,">wahilchettouf@gmail.com</a>
+                    <div class="div-lien">
+                        <p>Find Us On Social Networks</p>
+                        <a href="https://github.com/wahil09/"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/devweb-wahilchettouf/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="http://wahil-chettouf.infinityfreeapp.com/?i=1"><i class="fa-solid fa-address-card"></i></a>
+                    </div>
+                </article>
+            </section>
+        </main>
+
 
         <!--    Footer  -->
         <footer id="footer">
-            <div class="container">
+            <div class="container-footer">
                 <span>&copy 2022 <a href="http://wahil-chettouf.infinityfreeapp.com/?i=1">Wahil Chettouf</a> All Right Reserved</span>
             </div>
         </footer>
