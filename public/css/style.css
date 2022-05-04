@@ -23,6 +23,7 @@ body {
 
 :root {
     --main-color: #10cab7;
+    --section-background: #f6f6f6;;
 }
 
 .flex-r {
@@ -111,7 +112,7 @@ body {
 }
 
 #header .container-header .nav-pc ul {
-    background-color: #f6f6f6;
+    background-color: var(--section-background);
     position: absolute;
     top: 40px;
     right: 2px;
@@ -120,7 +121,7 @@ body {
 }
 
 #header .container-header .nav-pc ul::before {
-    background-color: #f6f6f6;
+    background-color: var(--section-background);
     content: '';
     position: absolute;
     top: -10px;
@@ -182,8 +183,6 @@ body {
     width: 100%;
 }
 
-
-
 #header .container-header .bar-menu .middle {
     transition: 0.3s;
     text-align: right;
@@ -197,7 +196,6 @@ body {
 #header .container-header .bar-menu .bottom {
     height: 3px;
 }
-
 
 
 
@@ -218,20 +216,19 @@ main {
 /* -- Landing-Row -- */
 main .landing {
     grid-area: landing;
-    background-color: rgb(193, 17, 17);
     width: 100%;
     min-height: 1223px;
 }
 
 /* - article-1 - */
-main .landing .container-art-0 {
-    min-height: 946px;
+main .landing .row-1 {
+    min-height: 944px;
     background-image: url('../images/landing.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
-
-main .landing .container-art-0 .cadre-info {
+main .landing .row-1 .cadre-info {
     width: 320px;
     min-height: 164px;
     text-align: center;
@@ -239,27 +236,69 @@ main .landing .container-art-0 .cadre-info {
     row-gap: 20px;
 }
 
-main .landing .container-art-0 .cadre-info .cadre-title {
+main .landing .row-1 .cadre-info .cadre-title {
     width: 100%;
     min-height: 58px;
 
 }
 
-main .landing .container-art-0 .cadre-info .cadre-title h1 {
+main .landing .row-1 .cadre-info .cadre-title h1 {
     margin: 0;
     font-weight: bold;
     font-size: 50px;
     color: var(--main-color);
 }
 
-main .landing .container-art-0 .cadre-info .cadre-descript {
+main .landing .row-1 .cadre-info .cadre-descript {
     width: 100%;
     min-height: 68px;
 }
 
-main .landing .container-art-0 .cadre-info .cadre-descript .descript {
+main .landing .row-1 .cadre-info .cadre-descript .descript {
     font-size: 19px;
     line-height: 1.75;
+}
+
+/* - article-2 - */
+main .landing .features {
+    background-color: var(--section-background);
+    min-height: 398px;
+    width: 100%;
+}
+
+main .landing .features .container-features {
+    min-height: 398px;
+    max-width: 1200px;
+    column-gap: 20px
+}
+
+main .landing .features .feature {
+    min-height: 278px;
+    max-width: 367px;
+    text-align: center;
+}
+
+main .landing .features .feature .container-feature {
+    min-height: 278px;
+    width: 80%;
+}
+
+main .landing .features .feature i {
+    width: 100%;
+    color: var(--main-color);
+}
+
+main .landing .features .feature h3 {
+    width: 100%;
+    font-weight: 800;
+
+}
+
+main .landing .features .feature p {
+    width: 100%;
+    line-height: 1.8;
+    color: #777;
+    font-size: 17px;
 }
 
 

@@ -9,8 +9,9 @@
     <meta name="Keywords" content="Portfolio">
     <title>Portfolio-01</title>
     <link rel="stylesheet" href="public/css/style.css">
-    <link rel="stylesheet" href="public/css/all.css">
+    <link rel="stylesheet" href="public/css/all.min.css">
     <link rel="stylesheet" href="public/css/mQuery.css">
+    <link rel="stylesheet" href="public/css/normalize.css">
 
 </head>
 
@@ -40,8 +41,8 @@
         </header>
         <main>
             <!--    Landing-Page    -->
-            <section class="row landing" id="landing">
-                <div class="container-art-0 flex-r">
+            <section class="row landing flex-r" id="landing">
+                <div class="row-1 flex-r">
                     <article class="cadre-info flex-c">
                         <div class="cadre-title flex-r">
                             <h1>Hello There</h1>
@@ -51,32 +52,43 @@
                         </div>
                     </article>
                 </div>
-                <article class="art-row">
-                    <div class="column-row"> 
-                        <i class="fas fa-magic fa-3x"></i>
-                        <h3>Tell Us Your Idea</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut lab
-                        </p>
+
+                <div class="features flex-r">
+                    <div class="container-features flex-r">
+                        <article class="feature flex-r">
+                            <div class="container-feature flex-c">
+                                <i class="fas fa-magic fa-3x"></i>
+                                <h3>Tell Us Your Idea</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                                </p>
+                            </div>
+                        </article>
+    
+                        <article class="feature flex-r">
+                            <div class="container-feature flex-c">
+                                <i class="far fa-gem fa-3x"></i>
+                                <h3>We Will Do All The Work</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                                </p>
+                            </div>
+                        </article>
+    
+                        <article class="feature flex-r">
+                            <div class="container-feature flex-c">
+                                <i class="fas fa-globe-asia fa-3x"></i>
+                                <h3>Your Product is Worldwide</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                                </p>
+                            </div>
+                        </article>
                     </div>
-                    <div class="column-row">
-                        <i class="far fa-gem fa-3x"></i>
-                        <h3>We Will Do All The Work</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut lab
-                        </p>
-                    </div>
-                    <div class="column-row">
-                        <i class="fas fa-globe-asia fa-3x"></i>
-                        <h3>Your Product is Worldwide</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit, sed do eiusmod tempor incididunt ut lab
-                        </p>
-                    </div>
-                </article>
+                </div>
             </section>
 
             <!--    Services-Row    -->

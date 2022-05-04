@@ -5,6 +5,43 @@
         padding: 0 10%;
     }
 
+    main .landing .features .feature {
+        max-width: 330px;
+    }
+
+}
+
+
+@media screen and (max-width: 1048px) {
+
+    main .landing .features .container-features {
+        padding: 50px 0
+    }
+    
+    main .landing .features .feature {
+        max-width: 367px;
+    }
+
+}
+
+
+@media screen and (max-width: 772px) {
+
+
+
+    main .landing .features .feature {
+        max-width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    main .landing .features .container-features {
+        row-gap: 25px
+    }
+
 }
 
 
