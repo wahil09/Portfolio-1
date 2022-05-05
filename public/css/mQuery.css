@@ -9,6 +9,34 @@
         max-width: 330px;
     }
 
+    main .services .container-servs {
+        row-gap: 60px;
+        padding: 60px 0 50px 0;
+        
+    }
+
+    main .services .container-servs .container-servs-img {
+        justify-content: space-evenly
+    }
+
+    main .services .container-servs .container-servs-img .cadre-img-servs {
+        display: none;
+    }
+
+    main .services .container-servs .container-servs-img .cadre-servs {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:1200px) and (min-width: 990px) {
+
+
+
+    main .services .container-servs .container-servs-img .cadre-servs .service div {
+        max-width: 395px;
+    }
 }
 
 
@@ -25,15 +53,72 @@
 }
 
 
-@media screen and (max-width: 772px) {
-
-
+@media screen and (max-width: 778px) {
+    .descript-title {
+        margin: -109px 0 0 0;
+    }
 
     main .landing .features .feature {
         max-width: 100%;
     }
 
+    main .services .container-servs .cadre-title h2 {
+        font-size: 60px
+    }
+
+    main .services .container-servs .container-servs-img {
+        padding: 21px 0 40px 0
+    }
+
+    main .services .container-servs .container-servs-img .cadre-servs {
+        column-gap: 0px;
+    }
+
+    main .services .container-servs .container-servs-img .cadre-servs .service {
+        text-align: center;
+        flex-direction: column;
+        max-width: 332px;
+    }
+
+    main .services .container-servs .container-servs-img .cadre-servs .service i {
+        width: 100%;
+        height: auto;
+    }
+
+    main .services .container-servs .container-servs-img .cadre-servs .service div {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    
+
 }
+
+
+@media screen and (max-width: 681px) {
+
+    main .landing .features .container-features {
+        row-gap: 25px
+    }
+
+    main .services .container-servs .container-servs-img {
+        padding: 0 0 40px 0;
+    }
+
+    main .services .container-servs .container-servs-img .cadre-servs {
+        row-gap: 20px;
+    }
+
+    main .services .container-servs .container-servs-img .cadre-servs .service {
+        max-width: 95%;
+    }
+
+    main .services .container-servs .container-servs-img .cadre-servs .service div {
+        max-width: 100%;
+    }
+
+}
+
 
 
 @media screen and (max-width: 480px) {
