@@ -53,6 +53,9 @@ body {
     font-weight: 800;
     letter-spacing: -3px;
     margin: 0;
+    width: 100%;
+    min-height: 115px;
+
 }
 
 .descript-title {
@@ -60,6 +63,8 @@ body {
     margin: -40px 0 0;
     font-size: 20px;
     color: #797979;
+    text-align: center;
+
 }
 
 
@@ -340,12 +345,9 @@ main .services .container-servs {
 /* - Cadre-title - */
 main .services .container-servs .cadre-title {
     width: 100%;
-    min-height: 115px;
-
 }
 
 main .services .container-servs .cadre-title h2 {
-    width: 100%;
     min-height: 115px;
 }
 
@@ -434,15 +436,75 @@ main .services .container-servs .container-servs-img .cadre-img-servs::after {
 
 
 /* -- Portfolio-Row -- */
+
 main .portfolio {
     grid-area: portfolio;
+    width: 100%;
+    min-height: 706px;
     background-color: var(--section-background);
 }
+
+main .portfolio .container-portfolio {
+    max-width: 1170px;
+    width: 100%;
+    min-height: 586px;
+
+    padding: 60px 0 50px 0;
+    row-gap: 73px;
+    align-items: center;
+}
+
+
+main .portfolio .container-portfolio .cadre-title {
+    width: 100%;
+    min-height: 115px;
+}
+
+main .portfolio .container-portfolio .container-projects {
+    width: 100%;
+    column-gap: 15px;
+    row-gap: 30px;
+}
+
+
+main .portfolio .container-portfolio .container-projects .project {
+    max-width: 360px;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    background-color: #ffffff;
+}
+
+main .portfolio .container-portfolio .container-projects .project .cadre-img {
+    width: 100%;
+    height: auto;
+}
+
+main .portfolio .container-portfolio .container-projects .project .cadre-img img {
+    width: 100%;
+    height: 100%;
+}
+
+main .portfolio .container-portfolio .container-projects .project .cadre-descript {
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    padding: 20px;
+    row-gap: 20px;
+}
+
+main .portfolio .container-portfolio .container-projects .project .cadre-descript p {
+    color: #777;
+    line-height: 1.6;
+}
+
+
+
 
 /* -- About-Row -- */
 main .about {
     grid-area: about;
-    background-color: rgb(21, 136, 174);
+    background-color: rgb(255, 255, 255);
 }
 
 /* -- Contact-Row -- */

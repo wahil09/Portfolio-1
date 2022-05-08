@@ -28,7 +28,47 @@
     }
 
 
+
+    /* --- Portfolio --- */
+    main .portfolio .container-portfolio .container-projects .project {
+        max-width: 455px;
+
+    }
+
 }
+
+
+@media screen and (max-width: 990px) {
+
+    /* --- Portfolio --- */
+    main .portfolio .container-portfolio .container-projects {
+        width: 90%;
+    }
+
+    main .portfolio .container-portfolio .container-projects .project {
+        max-width: 345px;
+
+    }
+    
+}
+
+
+
+@media screen and (max-width: 990px) {
+
+    /* --- Portfolio --- */
+    main .portfolio .container-portfolio .container-projects {
+        width: 95%;
+    }
+
+    main .portfolio .container-portfolio .container-projects .project {
+        max-width: 45%;
+    }
+
+}
+
+
+
 
 @media screen and (max-width:1200px) and (min-width: 990px) {
 
@@ -62,7 +102,7 @@
         max-width: 100%;
     }
 
-    main .services .container-servs .cadre-title h2 {
+    .special-heading {
         font-size: 60px
     }
 
@@ -88,9 +128,13 @@
     main .services .container-servs .container-servs-img .cadre-servs .service div {
         max-width: 100%;
         width: 100%;
-    }
+    }    
 
-    
+
+    /* ---- Portfolio ---- */ 
+    main .portfolio .container-portfolio {
+        row-gap: 40px;
+    }
 
 }
 
@@ -116,6 +160,15 @@
     main .services .container-servs .container-servs-img .cadre-servs .service div {
         max-width: 100%;
     }
+
+
+
+        /* --- Portfolio --- */
+
+    
+        main .portfolio .container-portfolio .container-projects .project {
+            max-width: 100%;
+        }
 
 }
 
