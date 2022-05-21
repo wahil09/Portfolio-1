@@ -501,11 +501,99 @@ main .portfolio .container-portfolio .container-projects .project .cadre-descrip
 
 
 
+
+
 /* -- About-Row -- */
 main .about {
     grid-area: about;
-    background-color: rgb(255, 255, 255);
+    height: auto;
+
+
 }
+
+main .about .container-about {
+    min-width: 1170px;
+    padding: 60px 0 120px;
+    row-gap: 45px;
+
+}
+
+main .about .container-about .div-title {
+    width: 100%;
+}
+
+main .about .container-about .article-about {
+    width: 100%;
+    column-gap: 235px
+}
+
+
+main .about .container-about .article-about .cadre-img {
+    width: 250px;
+    min-height: 375px;
+    padding-top: 45px;
+    position: relative;
+}
+
+main .about .container-about .article-about .cadre-img::before {
+    position: absolute;
+    background-color: #ebeced;
+    content: "";
+    width: 100px;
+    height: calc(100% + 10px);
+    padding-top: 20px;
+    z-index: -1;
+    top: 5px;
+    left: -20px;
+}
+
+main .about .container-about .article-about .cadre-img::after {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: calc(100% - 145px);
+    padding-top: 20px;
+    z-index: -1;
+    top: 5px;
+    right: -150px;
+    border-left: 80px solid var(--main-color);
+    border-bottom: 80px solid var(--main-color);
+}
+
+main .about .container-about .article-about img {
+    width: 100%;
+    height: 100%;
+}
+
+
+main .about .container-about .article-about .descript-about {
+    width: 640px;
+    max-height: 375px;
+    row-gap: 30px;
+    justify-content: flex-start;
+
+}
+
+main .about .container-about .article-about .descript-about p:first-child {
+    font-weight: bold;
+    line-height: 2;
+}
+
+main .about .container-about .article-about .descript-about p:last-child {
+    position: relative;
+    line-height: 2;
+    color: #777;
+}
+
+main .about .container-about .article-about .descript-about hr {
+    border: 1.2px solid var(--main-color);
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+
+
 
 /* -- Contact-Row -- */
 main .contact {
