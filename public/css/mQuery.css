@@ -135,8 +135,12 @@
 
 
 @media screen and (max-width: 778px) {
+
+    /* --- spitiale-title --- */
     .descript-title {
         margin: -109px 0 0 0;
+        font-size: 18px;
+
     }
 
     main .landing .features .feature {
@@ -177,6 +181,26 @@
         row-gap: 40px;
     }
 
+
+
+    /* ---- Contact ---- */
+
+    main .contact .container-contact {
+        row-gap: 50px;
+    }
+
+    main .contact .container-contact .artcile-contact p {
+        font-size: 25px;
+    }
+    
+    main .contact .container-contact .artcile-contact .mail {
+        font-size: 25px;
+    }
+
+
+    main .contact .container-contact .artcile-contact .social span {
+        font-size: 15px;
+    }
 }
 
 
@@ -214,18 +238,73 @@
 }
 
 
-
 @media screen and (max-width: 480px) {
 
     main .landing .features .container-features {
         row-gap: 25px
     }
+    
 
 }
 
 
 
+@media screen and (max-width: 400px) {
 
+    /* --- special-heading --- */
+    .special-heading {
+        font-size: 45px;
+    }
+
+    .descript-title {
+        margin: -140px 0 0;
+        font-size: 15px;
+    }
+
+
+    /* ---- Contact ---- */
+    main .contact .container-contact {
+        row-gap: 20px;
+        padding: 60px 0 80px;
+
+    }
+
+    main .contact .container-contact .artcile-contact p {
+        font-size: 20px;
+    }
+    
+    main .contact .container-contact .artcile-contact .mail {
+        font-size: 20px;
+    }
+    
+
+    main .contact .container-contact .artcile-contact .social span {
+        font-size: 13px;
+    }
+
+    main .contact .container-contact .artcile-contact .social i {
+        font-size: 15px;
+        padding: 0
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    /* ---- Contact ---- */
+    main .contact .container-contact {
+        row-gap: 0px;
+    }
+    main .contact .container-contact .artcile-contact p {
+        font-size: 16px;
+    }
+    
+    main .contact .container-contact .artcile-contact .mail {
+        font-size: 16px;
+    }
+    
+
+}
 
 
 

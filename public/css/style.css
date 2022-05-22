@@ -64,7 +64,6 @@ body {
     font-size: 20px;
     color: #797979;
     text-align: center;
-
 }
 
 
@@ -347,9 +346,7 @@ main .services .container-servs .cadre-title {
     width: 100%;
 }
 
-main .services .container-servs .cadre-title h2 {
-    min-height: 115px;
-}
+
 
 /* - container-servs-img - */
 
@@ -598,11 +595,47 @@ main .about .container-about .article-about .descript-about hr {
 /* -- Contact-Row -- */
 main .contact {
     grid-area: contact;
-    background-color: rgb(93, 47, 210);
+    background-color: var(--section-background);
+    width: 100%;
+}
+
+main .contact .container-contact {
+    width: auto;
+    padding: 60px 0 120px;
+    text-align: center;
+    row-gap: 85px;
+}
+
+main .contact .container-contact .div-title {
+    width: 100%;
+}
+
+main .contact .container-contact .artcile-contact {
+    width: 100%;
+    align-items: center;
+    row-gap: 20px;
+}
+
+main .contact .container-contact .artcile-contact p {
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--secondary-color);
+    letter-spacing: -2px;
+    
+}
+
+main .contact .container-contact .artcile-contact .mail {
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--main-color);    
 }
 
 
-
+main .contact .container-contact .artcile-contact .social i {
+    color:rgb(0, 0, 0);
+    padding: 0 5px;
+    font-size: 18px;
+}
 
 
 
