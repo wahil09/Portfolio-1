@@ -1,5 +1,3 @@
-
-
 @media screen and (max-width: 1200px) {
     #header .container-header {
         padding: 0 10%;
@@ -12,7 +10,6 @@
     main .services .container-servs {
         row-gap: 60px;
         padding: 60px 0 50px 0;
-        
     }
 
     main .services .container-servs .container-servs-img {
@@ -26,8 +23,6 @@
     main .services .container-servs .container-servs-img .cadre-servs {
         width: 100%;
     }
-
-
 
     /* --- Portfolio --- */
     main .portfolio .container-portfolio .container-projects .project {
@@ -43,13 +38,11 @@
 
     main .about .container-about .article-about .descript-about {
         width: 440px;
-    
     }
 }
 
 
 @media screen and (max-width: 990px) {
-
     /* --- Portfolio --- */
     main .portfolio .container-portfolio .container-projects {
         width: 90%;
@@ -57,46 +50,43 @@
 
     main .portfolio .container-portfolio .container-projects .project {
         max-width: 345px;
-
     }
 
-        /* --- About --- */
-        main .about .container-about {
-            min-width: 100%;
-        }
+    /* --- About --- */
+    main .about .container-about {
+        min-width: 100%;
+    }
 
-        main .about .container-about .article-about {
-            row-gap: 80px;
-        }
+    main .about .container-about .article-about {
+        row-gap: 80px;
+    }
 
-        main .about .container-about .article-about .cadre-img {
-            padding: 0;
-        }
+    main .about .container-about .article-about .cadre-img {
+        padding: 0;
+    }
 
-        main .about .container-about .article-about .cadre-img::before {
-            display: none;
-        }
-        
-        main .about .container-about .article-about .cadre-img::after {
-            display: none;
-        }
+    main .about .container-about .article-about .cadre-img::before {
+        display: none;
+    }
+    
+    main .about .container-about .article-about .cadre-img::after {
+        display: none;
+    }
 
-        main .about .container-about .article-about .descript-about {
-            width: 720px;
-            justify-content: space-evenly;
-            max-height: 100%;
+    main .about .container-about .article-about .descript-about {
+        width: 720px;
+        justify-content: space-evenly;
+        max-height: 100%;
+    }
 
-        }
-
-        main .about .container-about .article-about .descript-about p{
-            text-align: center;
-        }
+    main .about .container-about .article-about .descript-about p{
+        text-align: center;
+    }
 }
 
 
 
 @media screen and (max-width: 990px) {
-
     /* --- Portfolio --- */
     main .portfolio .container-portfolio .container-projects {
         width: 95%;
@@ -105,16 +95,10 @@
     main .portfolio .container-portfolio .container-projects .project {
         max-width: 45%;
     }
-
 }
 
 
-
-
 @media screen and (max-width:1200px) and (min-width: 990px) {
-
-
-
     main .services .container-servs .container-servs-img .cadre-servs .service div {
         max-width: 395px;
     }
@@ -122,7 +106,6 @@
 
 
 @media screen and (max-width: 1048px) {
-
     main .landing .features .container-features {
         padding: 50px 0
     }
@@ -130,17 +113,14 @@
     main .landing .features .feature {
         max-width: 367px;
     }
-
 }
 
 
 @media screen and (max-width: 778px) {
-
     /* --- spitiale-title --- */
     .descript-title {
         margin: -109px 0 0 0;
         font-size: 18px;
-
     }
 
     main .landing .features .feature {
@@ -175,16 +155,12 @@
         width: 100%;
     }    
 
-
     /* ---- Portfolio ---- */ 
     main .portfolio .container-portfolio {
         row-gap: 40px;
     }
 
-
-
     /* ---- Contact ---- */
-
     main .contact .container-contact {
         row-gap: 50px;
     }
@@ -197,7 +173,6 @@
         font-size: 25px;
     }
 
-
     main .contact .container-contact .artcile-contact .social span {
         font-size: 15px;
     }
@@ -205,7 +180,6 @@
 
 
 @media screen and (max-width: 681px) {
-
     main .landing .features .container-features {
         row-gap: 25px
     }
@@ -226,15 +200,10 @@
         max-width: 100%;
     }
 
-
-
-        /* --- Portfolio --- */
-
-    
-        main .portfolio .container-portfolio .container-projects .project {
-            max-width: 100%;
-        }
-
+    /* --- Portfolio --- */
+    main .portfolio .container-portfolio .container-projects .project {
+        max-width: 100%;
+    }
 }
 
 
@@ -242,15 +211,11 @@
 
     main .landing .features .container-features {
         row-gap: 25px
-    }
-    
-
+    }   
 }
 
 
-
 @media screen and (max-width: 400px) {
-
     /* --- special-heading --- */
     .special-heading {
         font-size: 45px;
@@ -261,12 +226,10 @@
         font-size: 15px;
     }
 
-
     /* ---- Contact ---- */
     main .contact .container-contact {
         row-gap: 20px;
         padding: 60px 0 80px;
-
     }
 
     main .contact .container-contact .artcile-contact p {
@@ -287,10 +250,14 @@
         padding: 0
     }
 
+    /* ---- Footer ---- */
+    #footer {
+        font-size: 14px;
+    }
 }
 
-@media screen and (max-width: 320px) {
 
+@media screen and (max-width: 320px) {
     /* ---- Contact ---- */
     main .contact .container-contact {
         row-gap: 0px;
@@ -302,17 +269,4 @@
     main .contact .container-contact .artcile-contact .mail {
         font-size: 16px;
     }
-    
-
 }
-
-
-
-
-
-
-
-
-
-
-
